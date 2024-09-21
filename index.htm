@@ -4,16 +4,24 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Temperature converter</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<div class="container">
 		<p class="info">HTML CSS & Javascript</p>
 		<h1 class="title">Temperature converter</h1>
 		<form class="form">
-			<label for="cel" class="label">Celsius</label>
-			<input type="text" class="input" name="cel" id="cel">
-			<label for="fah">Fahrenheit</label>
+			<div class="cel">
+				<label for="cel" class="label">Celsius</label>
+				<input type="text" class="input" name="cel" id="cel">
+			</div>
+			<div class="fah">
+				<label for="fah">Fahrenheit</label>
 			<input type="text" class="input" name="fah" id="fah">
+			</div>
 		</form>
 	</div>
 </body>
